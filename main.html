@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_ac2d5c1674434019ab039543121df7fd {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_ac2d5c1674434019ab039543121df7fd" ></div>
+        
+</body>
+<script>    
+    
+            var map_ac2d5c1674434019ab039543121df7fd = L.map(
+                "map_ac2d5c1674434019ab039543121df7fd",
+                {
+                    center: [28.207026, 83.985162],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 12,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_6d0181ccad204b0a87489d283281504d = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_ac2d5c1674434019ab039543121df7fd);
+        
+    
+            var marker_faf09ba0ccff47b383051d665c4e8e5e = L.marker(
+                [28.213412, 84.00038],
+                {}
+            ).addTo(map_ac2d5c1674434019ab039543121df7fd);
+        
+    
+            var icon_083c474274bd4b38ada3b47fe70c3bd2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_faf09ba0ccff47b383051d665c4e8e5e.setIcon(icon_083c474274bd4b38ada3b47fe70c3bd2);
+        
+    
+        var popup_e49b9b4f38164802800f2d2d6084a7f8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6ab01c54742b47adbc1286a2d8e23531 = $(`<div id="html_6ab01c54742b47adbc1286a2d8e23531" style="width: 100.0%; height: 100.0%;"><strong>Hope guesthouse Nepal</strong></div>`)[0];
+            popup_e49b9b4f38164802800f2d2d6084a7f8.setContent(html_6ab01c54742b47adbc1286a2d8e23531);
+        
+
+        marker_faf09ba0ccff47b383051d665c4e8e5e.bindPopup(popup_e49b9b4f38164802800f2d2d6084a7f8)
+        ;
+
+        
+    
+    
+            var marker_a640f69549324021ba0bb060e6c2191d = L.marker(
+                [28.213412, 83.985162],
+                {}
+            ).addTo(map_ac2d5c1674434019ab039543121df7fd);
+        
+    
+            var icon_beb4883ca355496ba47e2d0ef9fe48d0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_a640f69549324021ba0bb060e6c2191d.setIcon(icon_beb4883ca355496ba47e2d0ef9fe48d0);
+        
+    
+        var popup_b8c9a7c2d0b341d48ecb8319a831b88a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d33629a64b0649f2ae7a03ca202247bf = $(`<div id="html_d33629a64b0649f2ae7a03ca202247bf" style="width: 100.0%; height: 100.0%;"><strong>Kaligandaki</strong></div>`)[0];
+            popup_b8c9a7c2d0b341d48ecb8319a831b88a.setContent(html_d33629a64b0649f2ae7a03ca202247bf);
+        
+
+        marker_a640f69549324021ba0bb060e6c2191d.bindPopup(popup_b8c9a7c2d0b341d48ecb8319a831b88a)
+        ;
+
+        
+    
+    
+            var marker_3e7a4839b87a47a3bf9440d70d24307d = L.marker(
+                [28.215137, 83.985643],
+                {}
+            ).addTo(map_ac2d5c1674434019ab039543121df7fd);
+        
+    
+            var icon_936dfb7d66f849c58f4824a33b4ce827 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_3e7a4839b87a47a3bf9440d70d24307d.setIcon(icon_936dfb7d66f849c58f4824a33b4ce827);
+        
+    
+        var popup_2ee67bcb6530462bb563b737bf3a2a4e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_46d70ddd15e74282985d2e78821c3aeb = $(`<div id="html_46d70ddd15e74282985d2e78821c3aeb" style="width: 100.0%; height: 100.0%;"><strong>Hotel Deep Sagar Restaurant & Bar</strong></div>`)[0];
+            popup_2ee67bcb6530462bb563b737bf3a2a4e.setContent(html_46d70ddd15e74282985d2e78821c3aeb);
+        
+
+        marker_3e7a4839b87a47a3bf9440d70d24307d.bindPopup(popup_2ee67bcb6530462bb563b737bf3a2a4e)
+        ;
+
+        
+    
+    
+            var marker_e9165aa706ff44e6ac27249808dda157 = L.marker(
+                [28.202243, 83.9657894],
+                {}
+            ).addTo(map_ac2d5c1674434019ab039543121df7fd);
+        
+    
+            var icon_485f9fa2447c407ab45f6a081f80867a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_e9165aa706ff44e6ac27249808dda157.setIcon(icon_485f9fa2447c407ab45f6a081f80867a);
+        
+    
+        var popup_086ec8e980774945b4358b62c0c54e71 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a5842b9f50494ef4a5097dd0f5a185e2 = $(`<div id="html_a5842b9f50494ef4a5097dd0f5a185e2" style="width: 100.0%; height: 100.0%;"><strong>Hotel Mountain view</strong></div>`)[0];
+            popup_086ec8e980774945b4358b62c0c54e71.setContent(html_a5842b9f50494ef4a5097dd0f5a185e2);
+        
+
+        marker_e9165aa706ff44e6ac27249808dda157.bindPopup(popup_086ec8e980774945b4358b62c0c54e71)
+        ;
+
+        
+    
+    
+            var marker_38c56f677e9a4354940a90e35e884239 = L.marker(
+                [28.203631, 83.967345],
+                {}
+            ).addTo(map_ac2d5c1674434019ab039543121df7fd);
+        
+    
+            var icon_8245cb79ff534c73afdad8c504d69c9a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_38c56f677e9a4354940a90e35e884239.setIcon(icon_8245cb79ff534c73afdad8c504d69c9a);
+        
+    
+        var popup_f0f321169f03477a87110e6807692647 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_696441a98b344f14ac2d16e21c328670 = $(`<div id="html_696441a98b344f14ac2d16e21c328670" style="width: 100.0%; height: 100.0%;"><strong>New Annapurna Guest House</strong></div>`)[0];
+            popup_f0f321169f03477a87110e6807692647.setContent(html_696441a98b344f14ac2d16e21c328670);
+        
+
+        marker_38c56f677e9a4354940a90e35e884239.bindPopup(popup_f0f321169f03477a87110e6807692647)
+        ;
+
+        
+    
+    
+        function geo_json_ee30ea6cfe8845adbe0e276196a1d7df_onEachFeature(feature, layer) {
+            layer.on({
+                click: function(e) {
+                    map_ac2d5c1674434019ab039543121df7fd.fitBounds(e.target.getBounds());
+                }
+            });
+        };
+        var geo_json_ee30ea6cfe8845adbe0e276196a1d7df = L.geoJson(null, {
+                onEachFeature: geo_json_ee30ea6cfe8845adbe0e276196a1d7df_onEachFeature,
+            
+        });
+        function geo_json_ee30ea6cfe8845adbe0e276196a1d7df_add (data) {
+            geo_json_ee30ea6cfe8845adbe0e276196a1d7df.addData(data)
+                .addTo(map_ac2d5c1674434019ab039543121df7fd);
+        }
+            geo_json_ee30ea6cfe8845adbe0e276196a1d7df_add({"features": [{"geometry": {"coordinates": [[83.97787475585943, 28.17442893981928], [83.97489166259777, 28.175050735473746], [83.97464752197271, 28.177286148071346], [83.97067260742199, 28.180021286010742], [83.96421051025402, 28.179771423339957], [83.96395874023443, 28.182382583618164], [83.96072387695318, 28.184867858886776], [83.95861816406256, 28.183128356933594], [83.95687866210943, 28.18387413024908], [83.9546356201173, 28.183002471923828], [83.95326995849615, 28.18598556518566], [83.95066070556652, 28.185489654541016], [83.95091247558594, 28.188098907470817], [83.9483032226563, 28.186855316162166], [83.9470596313476, 28.187601089477596], [83.94755554199224, 28.191453933715934], [83.94618988037115, 28.194932937622013], [83.94941711425781, 28.194437026977596], [83.95326995849615, 28.191701889038143], [83.95774841308588, 28.194063186645565], [83.9578704833985, 28.195430755615234], [83.96122741699219, 28.19306945800787], [83.96544647216803, 28.193317413330078], [83.96731567382812, 28.190832138061467], [83.96967315673834, 28.19319343566906], [83.97029876708996, 28.197046279907227], [83.96595001220697, 28.201395034790153], [83.96308898925776, 28.201271057128963], [83.96234130859375, 28.20313644409191], [83.95811462402355, 28.202390670776424], [83.9560012817384, 28.204999923706055], [83.95265197753906, 28.20649147033697], [83.9505386352539, 28.20586967468273], [83.95004272460943, 28.207733154296875], [83.94805145263672, 28.208976745605582], [83.94481658935547, 28.207983016967887], [83.94370269775396, 28.21245574951172], [83.93848419189447, 28.212705612182674], [83.93872833251953, 28.213947296142635], [83.93748474121105, 28.214817047119084], [83.93437957763678, 28.21245574951172], [83.93202209472656, 28.21556282043457], [83.93313598632807, 28.218297958373967], [83.9350051879884, 28.218545913696403], [83.93637084960949, 28.217178344726676], [83.9369888305664, 28.22003746032715], [83.93649291992193, 28.22513198852539], [83.93761444091803, 28.227493286132926], [83.94469451904303, 28.226871490478516], [83.94767761230469, 28.225008010864315], [83.94792938232428, 28.22314453125], [83.95004272460943, 28.22339248657238], [83.95202636718744, 28.220657348632812], [83.95613098144537, 28.220533370971793], [83.9573745727539, 28.221529006958065], [83.95848846435558, 28.220285415649528], [83.95973205566412, 28.220783233642578], [83.96172332763683, 28.216556549072266], [83.96830749511724, 28.221155166626033], [83.97129058837885, 28.220783233642578], [83.97874450683594, 28.229232788085938], [83.97986602783197, 28.226747512817496], [83.98110961914068, 28.227121353149528], [83.98247528076178, 28.22513198852539], [83.98409271240234, 28.2303524017334], [83.98160552978516, 28.23494911193859], [83.98458862304699, 28.239175796508903], [83.9808578491211, 28.243524551391715], [83.97265625, 28.24576187133789], [83.9752655029298, 28.248123168945312], [83.97551727294922, 28.249986648559627], [83.97154235839844, 28.251850128173828], [83.96830749511724, 28.25607681274414], [83.97154235839844, 28.26141929626465], [83.97303009033203, 28.260177612304688], [83.97563934326183, 28.262289047241268], [83.97874450683594, 28.268627166748047], [83.97824859619146, 28.270492553710994], [83.98222351074219, 28.271238327026424], [83.98483276367182, 28.275711059570426], [83.98719787597662, 28.27459335327154], [83.98471069335943, 28.27111244201666], [83.98421478271496, 28.26775741577154], [83.98632812500011, 28.26775741577154], [83.98744964599621, 28.264030456543026], [83.99166870117199, 28.26241493225109], [83.992172241211, 28.260549545288143], [83.98694610595703, 28.258438110351562], [83.9862060546875, 28.255826950073356], [83.98980712890625, 28.253963470458984], [83.99875640869135, 28.24265480041504], [83.99726104736328, 28.239671707153377], [84.0012435913086, 28.231222152710075], [84.00459289550787, 28.227245330810547], [84.00907135009766, 28.215190887451286], [84.0103149414063, 28.21556282043457], [84.00968933105469, 28.21891784667963], [84.01168060302746, 28.220161437988338], [84.01055908203136, 28.22264671325695], [84.01391601562506, 28.22612571716303], [84.02361297607422, 28.224262237548885], [84.02373504638666, 28.22227287292492], [84.02100372314459, 28.21817207336437], [84.02211761474615, 28.21568679809576], [84.02982330322277, 28.218297958373967], [84.03205871582037, 28.216556549072266], [84.02920532226568, 28.210840225219783], [84.03069305419928, 28.208976745605582], [84.02634429931646, 28.206987380981445], [84.02609252929688, 28.20574569702154], [84.02746582031256, 28.200649261474723], [84.02970123291016, 28.19878578186035], [84.0289535522461, 28.196548461914176], [84.03044128417969, 28.195182800293026], [84.02957153320318, 28.192323684692383], [84.0310668945313, 28.1884708404541], [84.02907562255854, 28.185115814208984], [84.03603363037115, 28.17703819274908], [84.03616333007812, 28.17119789123541], [84.03827667236328, 28.169458389282283], [84.03653717041016, 28.16672325134283], [84.03765106201183, 28.16386604309082], [84.03665924072277, 28.161628723144588], [84.0383987426759, 28.160137176513672], [84.03964233398443, 28.156036376953125], [84.03181457519531, 28.15504264831543], [84.03069305419928, 28.15628433227539], [84.03181457519531, 28.159143447875977], [84.03031921386724, 28.161006927490348], [84.02696228027355, 28.158023834228516], [84.02510070800781, 28.157899856567496], [84.02211761474615, 28.16299438476574], [84.01640319824224, 28.160013198852653], [84.01354217529303, 28.160013198852653], [84.01006317138672, 28.162498474121094], [84.00347900390636, 28.16349220275879], [84.00061798095714, 28.167842864990348], [83.99713897705084, 28.168338775634766], [83.99403381347656, 28.17256355285656], [83.98943328857422, 28.172813415527344], [83.98707580566418, 28.171569824218864], [83.98446655273438, 28.17355918884283], [83.97787475585943, 28.17442893981928]], "type": "LineString"}, "properties": {}, "type": "Feature"}], "type": "FeatureCollection"});
+        
+</script>
